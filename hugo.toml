@@ -1,0 +1,78 @@
+#baseurl = "https://nyrrd.github.io"
+#title = "nyrrd"
+theme = "coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "nyrrd"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+    author = "nyrrd"
+    info = "Systems Engineer"
+    description = "nyrrd"
+    keywords = "blog,developer,personal"
+    avatarurl = "/img/comedian-badge-white.jpg"
+    #gravatar = "john.doe@example.com"
+    #faviconSVG = "/img/favicon.svg"
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+    since = 2021
+    enableTwemoji = true
+    colorScheme = "auto"
+    hidecolorschemetoggle = false
+    # customCSS = ["css/custom.css"]
+    # customSCSS = ["scss/custom.scss"]
+    # customJS = ["js/custom.js"]
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/nyrrd"
+#[[params.social]]
+#    name = "Gitlab"
+#    icon = "fa-brands fa-gitlab fa-2x"
+#    weight = 1
+#    url = "https://gitlab.com/nyrrd"
+#[[params.social]]
+#    name = "LinkedIn"
+#    icon = "fa-brands fa-linkedin fa-2x"
+#    weight = 2
+#    url = "https://www.linkedin.com/in/nyrrd"
+#[[params.social]]
+#    name = "Mastodon"
+#    icon = "fa-brands fa-mastodon fa-2x"
+#    weight = 3
+    #url = "https://www.linkedin.com/in/nyrrd"
+#[[params.social]]
+    #name = "RSS"
+    #icon = "fa-solid fa-rss fa-2x"
+    #weight = 4
+    ##url = "https://myhugosite.com/index.xml"
+    #rel = "alternate"
+    #type = "application/rss+xml"  
+
+# Menu links
+#[[menu.main]]
+    #name = "Blog"
+    #weight = 1
+    #url  = "posts/"
+#[[menu.main]]
+    #name = "About"
+    #weight = 1
+    #url = "about/"
