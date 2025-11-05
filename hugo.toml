@@ -3,17 +3,13 @@ baseurl = "https://nyrrd.github.io"
 theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
 [pagination]
 pagerSize = 20
-
 [services]
 [services.disqus]
 shortname = "nyrrd"
-
 [markup.highlight]
 style = "github-dark"
-
 [params]
     author = "nyrrd"
     info = "Systems Engineer"
@@ -30,13 +26,11 @@ style = "github-dark"
     # customCSS = ["css/custom.css"]
     # customSCSS = ["scss/custom.scss"]
     # customJS = ["js/custom.js"]
-
 [taxonomies]
     category = "categories"
     series = "series"
     tag = "tags"
     author = "authors"
-
 # Social links
 [[params.social]]
 name = "Github"
