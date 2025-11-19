@@ -12,7 +12,7 @@ shortname = "nyrrd"
 style = "github-dark"
 [params]
     author = "nyrrd"
-    info = "System Engineer"
+    #info = "System Engineer"
     description = "nyrrd"
     keywords = "blog,developer,personal"
     avatarurl = "/img/comedian-badge-white.jpg"
