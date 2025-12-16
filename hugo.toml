@@ -1,0 +1,39 @@
+baseurl = "https://nyrrd.github.io"
+#title = "nyrrd"
+theme = "coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+[pagination]
+pagerSize = 20
+[services]
+[services.disqus]
+shortname = "nyrrd"
+[markup.highlight]
+style = "github-dark"
+[params]
+    author = "nyrrd"
+    info = "System Engineer"
+    description = "nyrrd"
+    keywords = "blog,developer,personal"
+    avatarurl = "/img/comedian-badge-white.jpg"
+    #faviconSVG = "/img/favicon.svg"
+    favicon_32 = "/img/favicon.ico"
+    favicon_16 = "/img/favicon.ico"
+    since = 2020
+    enableTwemoji = true
+    colorScheme = "auto"
+    hidecolorschemetoggle = false
+    # customCSS = ["css/custom.css"]
+    # customSCSS = ["scss/custom.scss"]
+    # customJS = ["js/custom.js"]
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/nyrrd"
