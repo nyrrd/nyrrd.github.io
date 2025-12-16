@@ -1,6 +1,6 @@
 baseurl = "https://nyrrd.xyz"
 title = "nyrrd"
-#theme = "coder"
+theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 [pagination]
