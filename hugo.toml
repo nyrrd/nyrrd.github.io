@@ -1,5 +1,5 @@
 baseurl = "https://nyrrd.xyz"
-title = "nyrrd"
+#title = "nyrrd"
 theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -20,7 +20,7 @@ style = "github-dark"
     favicon_16 = "/img/favicon.ico"
     since = 2020
     enableTwemoji = true
-    colorScheme = "auto"
+    colorScheme = "dark"
     hidecolorschemetoggle = false
 [taxonomies]
     category = "categories"
