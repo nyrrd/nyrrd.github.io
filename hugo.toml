@@ -1,5 +1,4 @@
 baseurl = "https://nyrrd.xyz"
-#title = "nyrrd"
 theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
