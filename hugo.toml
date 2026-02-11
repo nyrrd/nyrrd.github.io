@@ -27,6 +27,7 @@ style = "github-dark"
     tag = "tags"
     author = "authors"
 # Social links
+# GITHUB
 [[params.social]]
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
@@ -35,6 +36,18 @@ url = "https://github.com/nyrrd"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+# GITLAB
+[[params.social]]
+name = "Gitlab"
+icon = "fa-brands fa-gitlab fa-2x"
+weight = 2
+url = "https://gitlab.com/nyrrd/"
+# MASTODON
+[[params.social]]
+name = "Mastodon"
+icon = "fa-brands fa-mastodon fa-2x"
+weight = 3
+url = "https://mastodon.social/@nyrrd"
 [params.umami]
     siteID = "0fbff15d-3277-4106-bbfe-7a436859738f"
     scriptURL = "https://cloud.umami.is/script.js" 
