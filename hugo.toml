@@ -48,6 +48,12 @@ name = "Mastodon"
 icon = "fa-brands fa-mastodon fa-2x"
 weight = 3
 url = "https://mastodon.social/@nyrrd"
+# IBIB
+[[params.social]]
+name = "Blog"
+icon = "fa-solid fa-blog fa-2x" 
+weight = 4
+url = "https://ibreakibuild.com"
 [params.umami]
     siteID = "0fbff15d-3277-4106-bbfe-7a436859738f"
     scriptURL = "https://cloud.umami.is/script.js" 
