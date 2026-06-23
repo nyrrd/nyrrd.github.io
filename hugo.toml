@@ -48,6 +48,11 @@ name = "Mastodon"
 icon = "fa-brands fa-mastodon fa-2x"
 weight = 3
 url = "https://mastodon.social/@nyrrd"
+[[params.social]]
+name = "--help"
+icon = "fa-solid fa-book-open fa-2x"
+weight = 5
+url = "https://dashdashhelp.xyz"
 # IBIB
 [[params.social]]
 name = "Blog"
