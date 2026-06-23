@@ -48,6 +48,7 @@ name = "Mastodon"
 icon = "fa-brands fa-mastodon fa-2x"
 weight = 3
 url = "https://mastodon.social/@nyrrd"
+# DDH
 [[params.social]]
 name = "--help"
 icon = "fa-solid fa-book-open fa-2x"
